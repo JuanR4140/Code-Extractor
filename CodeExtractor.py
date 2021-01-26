@@ -1,3 +1,4 @@
+#Extracts code from a variety, but not all, programming files
 import os
 from time import sleep
 
