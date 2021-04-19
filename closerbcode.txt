@@ -1,0 +1,11 @@
+from time import sleep
+import os
+
+target = "RuntimeBroker.exe"
+
+print("attempting to close Runtime Broker..")
+os.system("taskkill /F /IM " + target)
+print("---")
+print("finished attempt to terminate the " + target + " process.")
+sleep(3)
+exit()
